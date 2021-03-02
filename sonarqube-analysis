@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git 'Snigdha-Patra/simple-node-js-react-npm-app'
+     git 'https://github.com/Snigdha-Patra/simple-node-js-react-npm-app'
    }
    stage('Compile-Package'){
       // Get maven home path
